@@ -2,10 +2,12 @@
 #|===================================================
 Lkit loader for UT/AI 1201/0502
 =====================================================
+;; abel load file "C:\\Users\\Abelether\\Documents\\03-University\\Artificial Intelligence\\section -03\\Language-Processing\\Lkit")
+;; (use-package :matcher)
 |#
 
 
-(defparameter lkit-root-path "C:\\Users\\Adam\\OneDrive\\AI SHARED\\Section-03\\Code\\Language-Processing\\Lkit")
+(defparameter lkit-root-path "C:\\Users\\Abelether\\Documents\\03-University\\Artificial Intelligence\\section -03\\Language-Processing\\Lkit")
 
 ;; set environment to modern & warn user
 (format t "Loading environment assumed MODERN, setting :MODERN")
