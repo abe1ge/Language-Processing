@@ -5,7 +5,7 @@ Lkit loader for UT/AI 1201/0502
 |#
 
 
-(defparameter lkit-root-path "C:\\Users\\Adam\\OneDrive\\AI SHARED\\Section-03\\Code\\Language-Processing\\Lkit")
+(defparameter lkit-root-path "D:\\lkit")
 
 ;; set environment to modern & warn user
 (format t "Loading environment assumed MODERN, setting :MODERN")
