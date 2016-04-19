@@ -7,16 +7,15 @@ Lkit loader for UT/AI 1201/0502
 ;; jess load file "C:\\Users\\Jess\\Documents\\GitHub\\Language-Processing\\Lkit"
 ;; adam load file "C:\\Users\\Adam\\OneDrive\\AI SHARED\\Section-03\\Code\\Language-Processing\\Lkit"
 
-(use-package :matcher)
-
 |#
 
 
 
-(defparameter lkit-root-path "U:\\03-year\\AI\\section-03\\GitHub\\Language-Processing\\Lkit")
+(defparameter lkit-root-path "C:\\Users\\Adam\\OneDrive\\AI SHARED\\Section-03\\Code\\Language-Processing\\Lkit")
 
-
-
+;;(load (concatenate 'string lkit-root-path "\\utils.lsp"))
+;;(load (concatenate 'string lkit-root-path "\\matcher(1.7e).lsp"))
+(use-package :matcher)
 
 ;; set environment to modern & warn user
 (format t "Loading environment assumed MODERN, setting :MODERN")
