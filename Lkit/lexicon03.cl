@@ -2,6 +2,7 @@
  '((we         determiner   (sems . all)            (numb . plur))
    (I          determiner   (sems . any)            (numb . sing))
    (travelled  verb         (sems . arrived))
+   (went       verb         (sems . arrived))
    (to         prep         (sems . action))
    (Paris      noun         (sems . location))
    (in         prep         (sems . *in*))
