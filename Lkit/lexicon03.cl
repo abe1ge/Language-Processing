@@ -14,7 +14,7 @@
    (Spring     noun         (sems . season)              (tags time ))
    (Summer     noun         (sems . season)              (tags time))
    (Autumn     noun         (sems . season)              (tags time))
-   (Paris      noun         (sems . location)            (tags location))
+   (Paris      noun         (sems . location)            (tags place location cheese))
    (London     noun         (sems . location)            (tags location))
    (Italy      noun         (sems . location)            (tags location))
    (Eurostar   noun         (sems . transportation)      (tags trans)                     (numb . sing))

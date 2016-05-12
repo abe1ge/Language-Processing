@@ -2,6 +2,10 @@
  '(   
    (s1 (S -> NP VP ?PP))
    
+   (s2 (S -> PP)
+       (PP)
+       )
+   
    (np (NP -> ?det noun))
    
    (np2 (NP -> pronoun))
@@ -12,9 +16,14 @@
           
    (vpp (VP -> verb PP))
    
-   (pp (PP -> prep NP))
+   (pp (PP -> prep noun)
+       (glitch no-agreement
+               if not prep.tags $* noun.tags)
+        (tags . (lisp ($* prep.tags noun.tags)))
+       )
 
    ))
+
 
 
 (build-grammar

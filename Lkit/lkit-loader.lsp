@@ -3,7 +3,7 @@
 Lkit loader for UT/AI 1201/0502
 =====================================================
 ;; abel load file "C:\\Users\\Abelether\\Documents\\03-University\\Artificial Intelligence\\section -03\\Language-Processing\\Lkit"
-;; abel uni computer U:\03-year\AI\section-03\GitHub\Language-Processing\Lkit
+;; abel uni computer "C:\\Users\\n3178194\\Desktop\\Language-Processing\\Lkit"
 ;; jess load file "C:\\Users\\Jess\\Documents\\GitHub\\Language-Processing\\Lkit"
 ;; adam load file "C:\\Users\\Adam\\OneDrive\\AI SHARED\\Section-03\\Code\\Language-Processing\\Lkit"
 
@@ -11,7 +11,7 @@ Lkit loader for UT/AI 1201/0502
 
 
 
-(defparameter lkit-root-path "C:\\Users\\Adam\\OneDrive\\AI SHARED\\Section-03\\Code\\Language-Processing\\Lkit")
+(defparameter lkit-root-path "C:\\Users\\n3178194\\Desktop\\Language-Processing\\Lkit")
 
 ;;(load (concatenate 'string lkit-root-path "\\utils.lsp"))
 ;;(load (concatenate 'string lkit-root-path "\\matcher(1.7e).lsp"))
