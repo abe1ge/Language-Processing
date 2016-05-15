@@ -1,27 +1,43 @@
 (build-grammar
  '(   
-   (s1 (S -> NP VP ?PP))
+   (s1 (S -> NP VP ?PP)
+       (actor NP)
+       (action VP)
+       (destination PP)
+       )
    
    (s2 (S -> PP)
        (PP)
        )
    
-   (np (NP -> ?det noun))
+   (np (NP -> ?det noun)
+       (sems . noun)
+       )
    
-   (np2 (NP -> pronoun))
+   (np2 (NP -> pronoun)
+        (first pronoun)
+        )
    
-   (npp (NP -> NP PP))
+   (npp (NP -> NP PP)
+        (NP) (PP)
+        )
    
-   (vp (VP -> verb NP))
+   (vp (VP -> verb NP)
+       (first verb)
+       (sems . NP)
+       )
           
-   (vpp (VP -> verb PP))
+   (vpp (VP -> verb PP)
+        (sems . verb)
+        (sems . PP)
+        )
    
    (pp (PP -> prep noun)
        (glitch no-agreement
                if not prep.tags $* noun.tags)
-        (tags . (lisp ($* prep.tags noun.tags)))
+       (sems . noun)
+       ;; (tags . (lisp ($* prep.tags noun.tags)))
        )
-
    ))
 
 
