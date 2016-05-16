@@ -1,17 +1,8 @@
 (build-grammar
  '(   
-   (s1 (S -> NP VP ?PP)
-       (NP)
-       (VP)
-       (PP)
-       )
    
    (s2 (S -> PVA *PP)
        (PVA *.PP)
-       )
-   
-   (s2 (S -> S !and S)
-       (*.S)
        )
    
    (np (NP -> ?det noun)
@@ -30,7 +21,6 @@
         )
    
    (vp (VP -> verb NP)
-       
        (verb.sems NP)
        )
           
@@ -39,7 +29,8 @@
         )
    
    (pp (PP -> prep ?det noun)
-       (fail if not prep.tags $* noun.tags)
+       (glitch no-agreement
+               if not prep.tags $* noun.tags)
        (noun.sems)
        ;;(tags . (lisp ($* prep.tags noun.tags)))
        )
@@ -47,8 +38,7 @@
 
 
 
-
-(parse 'S '(we travelled to Paris in the Summer))
+(parse 'S '(we travelled to Paris on the traine in the Summer))
 
 (parse 'S '(we travels to Paris on holiday))
 

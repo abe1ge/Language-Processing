@@ -11,7 +11,7 @@ Lkit loader for UT/AI 1201/0502
 
 
 
-(defparameter lkit-root-path "C:\\Users\\n3178194\\Desktop\\Language-Processing\\Lkit")
+(defparameter lkit-root-path "U:\\03-year\\AI\\section-03\\GitHub\\Language-Processing\\Lkit")
 
 ;;(load (concatenate 'string lkit-root-path "\\utils.lsp"))
 ;;(load (concatenate 'string lkit-root-path "\\matcher(1.7e).lsp"))
