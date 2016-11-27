@@ -23,23 +23,23 @@ Examples of acceptable work include...
 
 example series 1
 
- John kicked the ball in the afternoon
- John kicked the ball in the park
- John kicked the ball in the pond
- John kicked the ball in the park in the afternoon
+	John kicked the ball in the afternoon
+	John kicked the ball in the park
+	John kicked the ball in the pond
+	John kicked the ball in the park in the afternoon
 
 example series 2
 
- Sue went to London in the morning
-
- Sue went to London in/on the bus
- Sue went to London in the winter
- Sue went to London in bad mood
+	Sue went to London in the morning
+	Sue went to London in/on the bus
+	Sue went to London in the winter
+	Sue went to London in bad mood
 
 example series 3
- We travelled to Paris in the summer
- We travelled to Paris on holiday
- We travelled to Paris on Eurostar
+
+	We travelled to Paris in the summer
+	We travelled to Paris on holiday
+	We travelled to Paris on Eurostar
 
 #deliverables
 The general documentation for deliverables and success criteria applies to this work.
